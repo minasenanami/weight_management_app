@@ -14,9 +14,8 @@ Turbolinks.start();
 ActiveStorage.start();
 
 require("bootstrap/dist/js/bootstrap");
-
 require("chart.js");
-
+require("../graphs");
 require("flatpickr");
 require("flatpickr/dist/l10n/ja");
 require("flatpickr/dist/themes/material_blue.css");
